@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Header from './Header';
 import VideoBanner from './VideoBanner';
+import Brands from './Brands';
 
 function App() {
   return (
@@ -11,8 +12,11 @@ function App() {
 
       {/* Video Banner */}
       <VideoBanner />
+
       {/* Brands */}
-      {/* Content Info */}
+      <Brands />
+
+      {/* Feature */}
       {/* Content Info */}
       {/* Popular Projects */}
       {/* Work Category */}

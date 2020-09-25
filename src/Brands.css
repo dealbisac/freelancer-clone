@@ -1,0 +1,19 @@
+.brands {
+  display: flex;
+  margin-left: 30px;
+}
+
+.brands__info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 15px;
+  padding: 20px;
+  width: 90%;
+  border-bottom: 1px solid gray;
+}
+
+.brands__info > h4 {
+  font-weight: 500;
+  font-size: 25px;
+}
