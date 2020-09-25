@@ -1,0 +1,65 @@
+.videoBanner {
+  background: url("https://images.unsplash.com/photo-1560285509-3ebfa70a171d")
+    center center;
+  height: 600px;
+  position: relative;
+  opacity: 100%;
+}
+
+.videoBanner__info {
+  background-color: transparent;
+  color: white;
+  padding-top: 18vh;
+  padding-left: 50px;
+  padding-right: 80px;
+  padding-bottom: 40px;
+  margin-left: 50px;
+  width: 550px;
+}
+
+.videoBanner__info > h1 {
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 65px;
+  margin-bottom: 20px;
+}
+
+.videoBanner__info > h4 {
+  font-weight: 400;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.videoBanner__info > button {
+  color: white;
+  padding: 20px 38px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.videoBanner__info--first {
+  background: #f20091;
+  color: #f7f7f7;
+  border: none;
+}
+
+.videoBanner__info--first:hover {
+  background: #d90082;
+}
+
+.videoBanner__info--second {
+  background: linear-gradient(180deg, transparent 0, hsla(0, 0%, 100%, 0.2));
+  background-color: transparent;
+  border-color: #f7f7f7;
+  border: 1px solid #fff;
+}
+
+.videoBanner__info--second:hover {
+  background: hsla(0, 0%, 100%, 0.2);
+  color: #615e5c;
+  border-color: #dedede;
+}
