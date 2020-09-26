@@ -4,7 +4,8 @@
   align-content: center;
   align-items: center;
   padding: 10px;
-  width: 300px;
+  width: 250px;
+  margin-bottom: 5px;
 }
 
 .icons > img {
@@ -14,6 +15,6 @@
 
 .icons > h6 {
   margin-left: 10px;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 500;
 }

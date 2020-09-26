@@ -7,6 +7,7 @@ import Features from './Features';
 import Content from './Content';
 import Projects from './Projects';
 import Category from './Category';
+import Portfolio from './Portfolio';
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
       <Category />
 
       {/* Portfolio */}
+      <Portfolio />
       {/* Job Categories */}
       {/* Footer */}
 

@@ -1,0 +1,7 @@
+.portfolio {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  margin-left: 50px;
+  padding: 25px;
+}

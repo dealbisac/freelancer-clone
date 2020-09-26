@@ -1,0 +1,57 @@
+.data {
+  display: flex;
+  width: 50%;
+  background-color: #efeff0;
+  padding: 15px;
+  margin: 15px;
+}
+
+.data__one {
+  display: flex;
+}
+
+.data__one > img {
+  width: 300px;
+  height: 250px;
+}
+
+.data__two {
+  text-align: end;
+  padding-right: 10px;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+.data__two > h5 {
+  color: blue;
+  font-weight: 700;
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+.data__two > h3 {
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.data__two > h4 {
+  font-weight: 500;
+  margin-bottom: 35px;
+}
+
+.data__two > button {
+  background-color: #007fed;
+  border: #007fed;
+  color: white;
+  padding: 8px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.data__two > button:hover {
+  background-color: #139ff0;
+}
