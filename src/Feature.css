@@ -1,0 +1,31 @@
+.feature {
+  display: flex;
+  flex-direction: column;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.feature > img {
+  height: 140px;
+  width: 100%;
+}
+
+.feature__info {
+  margin-top: -9px;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.feature__info > h4 {
+  font-size: 25px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.feature__info > h6 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 15px;
+  margin-bottom: 8px;
+  text-align: center;
+}
