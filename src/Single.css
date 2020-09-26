@@ -1,0 +1,36 @@
+.single {
+  display: flex;
+  flex-direction: column;
+  margin-right: 25px;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.single__top {
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.single__top > img {
+  height: 50px;
+}
+
+.single__top > h3 {
+  margin-left: 15px;
+  font-size: 23px;
+  font-weight: 700;
+}
+
+.single__bottom {
+  display: flex;
+  margin: 10px;
+}
+
+.single__bottom > h6 {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}

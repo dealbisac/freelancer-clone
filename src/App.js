@@ -4,6 +4,7 @@ import Header from './Header';
 import VideoBanner from './VideoBanner';
 import Brands from './Brands';
 import Features from './Features';
+import Content from './Content';
 
 function App() {
   return (
@@ -19,7 +20,10 @@ function App() {
 
       {/* Features */}
       <Features />
+
       {/* Content Info */}
+      <Content />
+
       {/* Popular Projects */}
       {/* Work Category */}
       {/* Portfolio */}
