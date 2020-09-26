@@ -8,6 +8,7 @@ import Content from './Content';
 import Projects from './Projects';
 import Category from './Category';
 import Portfolio from './Portfolio';
+import JobCategory from './JobCategory';
 
 function App() {
   return (
@@ -35,7 +36,10 @@ function App() {
 
       {/* Portfolio */}
       <Portfolio />
+
       {/* Job Categories */}
+      <JobCategory />
+
       {/* Footer */}
 
 

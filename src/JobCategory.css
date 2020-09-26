@@ -1,0 +1,22 @@
+.jobCategory {
+  justify-content: center;
+  margin-bottom: 20px;
+  padding: 50px;
+}
+
+.jobCategory__heading > h3 {
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 50px;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.jobCategory__icons {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 50px;
+  margin-left: 50px;
+}

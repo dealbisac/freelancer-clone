@@ -1,0 +1,22 @@
+.jobs {
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: center;
+  padding: 5px;
+  width: 250px;
+  /* margin-bottom: 5px; */
+}
+
+.jobs > img {
+  height: 20px;
+  margin-right: 10px;
+  /* background-color: #ffc24e;
+  color: #ffc24e; */
+}
+
+.jobs > h5 {
+  margin-left: 10px;
+  font-size: 14px;
+  font-weight: 500;
+}
