@@ -4,7 +4,7 @@ import './Project.css'
 function Project({ src, title, price }) {
     return (
         <div className="project">
-            <img src={src} alt="project-image" />
+            <img src={src} alt="project-logo" />
             {/* <button>Post a project like this.</button> */}
             <div className="project__bottom">
                 <h2>{title}</h2>

@@ -6,6 +6,7 @@ import Brands from './Brands';
 import Features from './Features';
 import Content from './Content';
 import Projects from './Projects';
+import Category from './Category';
 
 function App() {
   return (
@@ -29,6 +30,8 @@ function App() {
       <Projects />
 
       {/* Work Category */}
+      <Category />
+
       {/* Portfolio */}
       {/* Job Categories */}
       {/* Footer */}
