@@ -9,6 +9,7 @@ import Projects from './Projects';
 import Category from './Category';
 import Portfolio from './Portfolio';
 import JobCategory from './JobCategory';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -41,8 +42,7 @@ function App() {
       <JobCategory />
 
       {/* Footer */}
-
-
+      <Footer />
 
     </div>
   );

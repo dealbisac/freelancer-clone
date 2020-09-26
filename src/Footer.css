@@ -1,0 +1,23 @@
+.footer {
+  background-color: #161e2c;
+}
+
+.footer__bottom {
+  color: white;
+  justify-content: space-evenly;
+  display: flex;
+  border-top: 1px solid #fff;
+  margin: 15px, 25px;
+  padding: 20px;
+}
+
+.footer__bottom > h6 {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.footer__bottom > p {
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 15px;
+}
