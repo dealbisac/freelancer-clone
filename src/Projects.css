@@ -1,0 +1,43 @@
+.projects {
+  justify-content: center;
+  margin-bottom: 80px;
+  background-color: #f7f7f7;
+  padding: 70px;
+}
+
+.projects__heading > h3 {
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 50px;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.projects__project {
+  display: flex;
+  justify-content: space-evenly;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.projects__more {
+  text-align: center;
+}
+
+.projects__more > button {
+  background-color: transparent;
+  color: gray;
+  padding: 15px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.projects__more > button:hover {
+  color: black;
+}

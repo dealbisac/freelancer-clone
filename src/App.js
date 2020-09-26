@@ -5,6 +5,7 @@ import VideoBanner from './VideoBanner';
 import Brands from './Brands';
 import Features from './Features';
 import Content from './Content';
+import Projects from './Projects';
 
 function App() {
   return (
@@ -25,6 +26,8 @@ function App() {
       <Content />
 
       {/* Popular Projects */}
+      <Projects />
+
       {/* Work Category */}
       {/* Portfolio */}
       {/* Job Categories */}

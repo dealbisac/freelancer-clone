@@ -17,7 +17,6 @@
 .content__single {
   display: flex;
   justify-content: space-evenly;
-  align-items: center;
   margin-right: 50px;
   margin-left: 50px;
 }
