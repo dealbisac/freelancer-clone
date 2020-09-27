@@ -2,11 +2,95 @@
   background-color: #161e2c;
 }
 
+.footer > hr {
+  margin-left: 60px;
+  width: 90%;
+  size: 1px;
+}
+
+.footer__top {
+  display: flex;
+  justify-content: center;
+}
+
+.footer__top--left {
+  display: flex;
+  flex-direction: column;
+  flex: 0.2;
+  padding: 20px;
+  margin-left: 60px;
+}
+
+.footer__top--left > img {
+  height: 45px;
+  width: 175px;
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+.footer__top--left > p {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.footer__top--left > p > .MuiIcon-root {
+  margin-right: 10px;
+}
+
+.footer__top--right {
+  display: flex;
+  justify-content: space-evenly;
+  flex: 0.8;
+  padding: 20px;
+}
+
+.footer__top--right-one,
+.footer__top--right-two,
+.footer__top--right-three,
+.footer__top--right-four {
+  padding: 10px;
+}
+
+.footer__top--right-one > h4,
+.footer__top--right-two > h4,
+.footer__top--right-three > h4,
+.footer__top--right-four > h4 {
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.footer__top--right-one > p,
+.footer__top--right-two > p,
+.footer__top--right-three > p {
+  font-weight: 500;
+  font-size: 12px;
+  margin-bottom: 5px;
+  color: white;
+}
+
+.footer__top--right-four > img {
+  height: 50px;
+  width: 180px;
+  margin-bottom: 15px;
+}
+
+.footer__top--right-four > p {
+  display: flex;
+  justify-content: space-evenly;
+  color: white;
+}
+
 .footer__bottom {
   color: white;
   justify-content: space-evenly;
   display: flex;
-  border-top: 1px solid #fff;
   margin: 15px, 25px;
   padding: 20px;
 }

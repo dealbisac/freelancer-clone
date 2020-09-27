@@ -5,7 +5,7 @@ function Data({ src, title, subtitle, content, btn }) {
     return (
         <div className="data">
             <div className="data__one">
-                <img src={src} alt="data-photo" />
+                <img src={src} alt="data-dp" />
             </div>
             <div className="data__two">
                 <h5>{title}</h5>
