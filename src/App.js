@@ -10,41 +10,36 @@ import Category from './Category';
 import Portfolio from './Portfolio';
 import JobCategory from './JobCategory';
 import Footer from './Footer';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Login from './Login';
+import Signup from './Signup';
 
 function App() {
   return (
-    <div className="app">
-      {/* Header */}
-      <Header />
-
-      {/* Video Banner */}
-      <VideoBanner />
-
-      {/* Brands */}
-      <Brands />
-
-      {/* Features */}
-      <Features />
-
-      {/* Content Info */}
-      <Content />
-
-      {/* Popular Projects */}
-      <Projects />
-
-      {/* Work Category */}
-      <Category />
-
-      {/* Portfolio */}
-      <Portfolio />
-
-      {/* Job Categories */}
-      <JobCategory />
-
-      {/* Footer */}
-      <Footer />
-
-    </div>
+    <Router>
+      <div className="app">
+        <Switch>
+          <Route path="/login">
+            <Login />
+          </Route>
+          <Route path="/signup">
+            <Signup />
+          </Route>
+          <Route path="/">
+            <Header />
+            <VideoBanner />
+            <Brands />
+            <Features />
+            <Content />
+            <Projects />
+            <Category />
+            <Portfolio />
+            <JobCategory />
+            <Footer />
+          </Route>
+        </Switch>
+      </div>
+    </Router>
   );
 }
 

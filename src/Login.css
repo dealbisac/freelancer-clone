@@ -1,0 +1,99 @@
+.login {
+  text-align: center;
+}
+
+.login__form {
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+  margin-top: 15px;
+  box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+}
+
+.login__formTop {
+  margin-top: 20px;
+}
+
+.login__formTop > h4 {
+  margin-bottom: 20px;
+}
+
+.login__formTop > img {
+  height: 140px;
+  width: 370px;
+  margin-bottom: 20px;
+}
+
+.login__formTop > a > img {
+  margin-top: 50px;
+  height: 70px;
+  width: 200px;
+}
+
+.login__form > h4 {
+  margin-bottom: 20px;
+}
+
+.login__formMiddle {
+  display: flex;
+  flex-direction: column;
+  margin: 0 35px;
+  text-align: initial;
+}
+
+.login__formMiddle > input {
+  padding: 15px;
+  margin-bottom: 10px;
+}
+
+.login__formMiddle > h5 {
+  font-weight: 500;
+}
+
+.login__formMiddle-space > a {
+  text-decoration: none;
+  color: blue;
+}
+
+.login__formMiddle-space > a:hover {
+  text-decoration: underline;
+}
+
+.login__formMiddle-space {
+  margin-left: 150px;
+}
+
+.login__formBottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login__formBottom > hr {
+  width: 80%;
+  margin-top: 20px;
+}
+
+.login__formBottom > h5 {
+  font-size: 30;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.login__formBottom > h5 > a {
+  text-decoration: none;
+  color: blue;
+}
+
+.login__formBottom > h5 > a:hover {
+  text-decoration: underline;
+}
+
+.login__formBottom > img {
+  display: flex;
+  flex-direction: row;
+  height: 100px;
+  width: 300px;
+  padding: 0 5px;
+  margin-bottom: 25px;
+}

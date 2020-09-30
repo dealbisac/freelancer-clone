@@ -37,6 +37,10 @@
   font-weight: 400;
 }
 
+.header__right > h4 > a {
+  text-decoration: none;
+}
+
 .header__right > button {
   background-color: #fc8c14; /* Orange */
   border: none;
