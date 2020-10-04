@@ -28,6 +28,7 @@ function App() {
           </Route>
           <Route path="/dashboard">
             <Dashboard />
+            <Footer />
           </Route>
           <Route path="/">
             <Header />

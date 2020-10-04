@@ -1,10 +1,20 @@
 import React from 'react';
 import './Dashboard.css';
+import DashboardContent from './DashboardContent';
+import Menus from './Menus';
+import Sidebar from './Sidebar';
+
 
 function Dashboard() {
     return (
         <div className="dashboard">
-            <h1>Dashboard</h1>
+            <Menus />
+
+            {/* Main */}
+            <div className="dashboard__main">
+                <DashboardContent />
+                <Sidebar />
+            </div>
 
         </div>
     )

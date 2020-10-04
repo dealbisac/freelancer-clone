@@ -9,7 +9,7 @@ function Header() {
                 <Link to="/">
                     <img
                         className="header__logo"
-                        src="https://i.pinimg.com/564x/39/f8/30/39f83008cb63c447afc04b8d3816c023.jpg"
+                        src="https://s3.amazonaws.com/fjds/gig_company/original/20/freelancer-logo.png?1587072521"
                         alt="logo"
                     />
                 </Link>
