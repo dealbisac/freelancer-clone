@@ -1,4 +1,151 @@
 .sidebar {
   display: flex;
+  flex-direction: column;
   flex: 0.3;
+}
+
+.sidebar__cardone {
+  height: min-content;
+  background-color: #164188;
+  margin-left: 30px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.sidebar__cardone--title {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  width: 350px;
+}
+
+.sidebar__cardone--title > h3 {
+  color: white;
+  font-size: 22px;
+  font-weight: 800;
+  margin-bottom: 5px;
+}
+
+.sidebar__cardone--title > span {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: flex-start;
+}
+
+.sidebar__cardone--title > span > h3 {
+  margin-left: auto;
+  font-size: 16px;
+  font-weight: 300;
+  margin-right: 40px;
+}
+
+.sidebar__cardone--progress {
+  background-color: white;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.sidebar__cardone--progress > span {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 15px;
+}
+
+.sidebar__cardone--progress > span > p {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.sidebar__cardone--progress > .MuiLinearProgress-root {
+  margin: 0 15px;
+  border-radius: 10px;
+  height: 8px;
+}
+
+.sidebar__cardone--english {
+  background-color: #fff;
+  padding-top: 5px;
+  padding-bottom: 10px;
+}
+
+.sidebar__cardone--english > span {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #f0f0f0;
+  margin: 0 15px;
+  padding: 15px;
+}
+
+.sidebar__cardone--english > span > .MuiSvgIcon-root {
+  margin-right: 30px;
+  color: #139ff0;
+}
+
+.sidebar__cardone--english > span > p > a {
+  color: #139ff0;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.sidebar__cardone--english > span > p > a:hover {
+  color: #083e7c;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.sidebar__cardone--balance {
+  background-color: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.sidebar__cardone--balance > span {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-top: 1px solid gray;
+  margin: 0 15px;
+}
+
+.sidebar__cardone--balance > span > p {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 10px;
+  margin-right: 40px;
+}
+
+.sidebar__cardone--balance > span > p > a {
+  text-decoration: none;
+}
+
+.sidebar__cardone--balance > span > p > a:hover {
+  color: #083e7c;
+}
+
+.sidebar__cardone--balance > span > p > a > .MuiSvgIcon-root {
+  vertical-align: middle;
+}
+
+.sidebar__cardone--balance > p {
+  font-size: 15px;
+  font-weight: 500;
+  margin-top: 5px;
+  margin-left: 18px;
+}
+
+.sidebar__cardtwo {
+  background-color: white;
+  height: min-content;
+  margin-left: 30px;
+  line-height: 1.5;
+}
+
+.sidebar__cardtwo > span {
+  display: flex;
+  justify-content: space-between;
+  /* align-content: flex-start; */
 }
