@@ -65,7 +65,25 @@ function DashboardContent() {
                 </div>
                 <p><Link>View All <ArrowRightAltIcon /></Link></p>
             </div>
+
             {/* News Feed */}
+            <div className="dashboardContent__news">
+                <div className="dashboardContent__news--heading">
+                    <h3>News Feed</h3>
+                </div>
+                <div className="dashboardContent__news--main">
+                    <img src="https://www.f-cdn.com/assets/main/en/assets/default-notification-image.svg" />
+                    <span>
+                        <p>
+                            This is where you'll receive updates for project and account activity. Select an option below to get started.
+                            <br />about 2 hours ago.
+                            </p>
+                        <button>Post a Project</button>
+                        <button>Browse Projects</button>
+                    </span>
+                </div>
+
+            </div>
 
         </div>
     )
