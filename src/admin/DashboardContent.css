@@ -1,5 +1,6 @@
 .dashboardContent {
   display: flex;
+  flex-direction: column;
   flex: 0.7;
 }
 
@@ -7,6 +8,7 @@
   display: flex;
   background-color: white;
   padding: 25px;
+  margin-bottom: 30px;
 }
 
 .dashboardContent__card > span > h4 {
@@ -38,10 +40,134 @@
   vertical-align: middle;
 }
 
+.dashboardContent__card > span > button:hover {
+  background-color: #139ff0;
+}
+
 .dashboardContent__card > span > img {
   width: 140px;
   height: 150px;
   background-color: yellow;
   border-radius: 50px;
   margin-left: 70px;
+}
+
+.dashboardContent__projects {
+  background-color: white;
+  padding: 25 25 0 25;
+  margin-bottom: 30px;
+}
+
+.dashboardContent__projects--heading {
+  display: flex;
+  margin-bottom: 10px;
+  border-bottom: 1px solid gray;
+  padding-bottom: 15px;
+}
+
+.dashboardContent__projects--heading > h3 {
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.dashboardContent__projects--heading > button {
+  margin-left: auto;
+  background-color: #fc8c14; /* Orange */
+  border: none;
+  color: white;
+  padding: 9px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  width: max-content;
+}
+
+.dashboardContent__projects--table
+  > .MuiTableContainer-root
+  > .MuiTable-root
+  > .MuiTableHead-root
+  > .MuiTableRow-root
+  > .MuiTableCell-root {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.dashboardContent__projects--table
+  > .MuiTableContainer-root
+  > .MuiTable-root
+  > .MuiTableBody-root
+  > .MuiTableCell-root
+  > .MuiSvgIcon-root {
+  vertical-align: middle;
+  color: rgb(231, 189, 0);
+}
+
+.dashboardContent__projects--table
+  > .MuiTableContainer-root
+  > .MuiTable-root
+  > .MuiTableBody-root
+  > .MuiTableCell-root
+  > .MuiSvgIcon-root {
+  vertical-align: middle;
+  color: rgb(231, 189, 0);
+}
+
+.dashboardContent__projects--table
+  > .MuiTableContainer-root
+  > .MuiTable-root
+  > .MuiTableBody-root
+  > .MuiTableCell-root {
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.dashboardContent__projects--table
+  > .MuiTableContainer-root
+  > .MuiTable-root
+  > .MuiTableBody-root
+  > .MuiTableCell-root
+  > a {
+  font-weight: 700;
+  font-size: 15px;
+  color: #007fed;
+  text-decoration: none;
+}
+
+.dashboardContent__projects--table
+  > .MuiTableContainer-root
+  > .MuiTable-root
+  > .MuiTableBody-root
+  > .MuiTableCell-root
+  > a:hover {
+  font-weight: 700;
+  font-size: 15px;
+  color: #007fed;
+  text-decoration: underline;
+}
+
+.dashboardContent__projects > p {
+  padding: 15px 0;
+  text-align: center;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.dashboardContent__projects > p > a {
+  font-weight: 500;
+  font-size: 14px;
+  color: #007fed;
+  text-decoration: none;
+}
+
+.dashboardContent__projects > p > a:hover {
+  font-weight: 500;
+  font-size: 14px;
+  color: #007fed;
+  text-decoration: underline;
+}
+
+.dashboardContent__projects > p > a > .MuiSvgIcon-root {
+  vertical-align: middle;
 }

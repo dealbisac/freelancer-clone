@@ -12,6 +12,7 @@
   display: flex;
   flex: 0.9;
   align-items: center;
+  margin-right: 10px;
   /* border: 1px solid gray; */
 }
 
@@ -41,7 +42,7 @@
   display: inline-block;
   font-size: 14px;
   font-weight: bold;
-  margin-left: 220px;
+  margin-left: auto;
   width: max-content;
 }
 
