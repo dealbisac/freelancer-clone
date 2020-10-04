@@ -1,0 +1,47 @@
+.dashboardContent {
+  display: flex;
+  flex: 0.7;
+}
+
+.dashboardContent__card {
+  display: flex;
+  background-color: white;
+  padding: 25px;
+}
+
+.dashboardContent__card > span > h4 {
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.dashboardContent__card > span > p {
+  font-weight: 500;
+  margin-bottom: 20px;
+  margin-right: 70px;
+  line-height: 1.5;
+}
+
+.dashboardContent__card > span > button {
+  background-color: #007fed;
+  border: #007fed;
+  color: white;
+  padding: 5px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.dashboardContent__card > span > button > .MuiSvgIcon-root {
+  vertical-align: middle;
+}
+
+.dashboardContent__card > span > img {
+  width: 140px;
+  height: 150px;
+  background-color: yellow;
+  border-radius: 50px;
+  margin-left: 70px;
+}

@@ -1,0 +1,13 @@
+.dashboard {
+  padding-bottom: 64px;
+  background-color: #f0f0f0;
+}
+
+.dashboard__main {
+  display: flex;
+  flex: 1;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
