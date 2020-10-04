@@ -1,9 +1,22 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Signup.css';
 import { Link } from 'react-router-dom';
 import Checkbox from '@material-ui/core/Checkbox';
+import { auth } from './firebase';
 
 function Signup() {
+    const [email, setEmail] = useState('');
+    const [password, setPassword] = useState('');
+
+    const register = e => {
+        e.preventDefault();
+        //some fancy firebase login...
+        auth.createUserWithEmailAndPassword(email, password)
+            .then(auth => {
+            })
+            .catch(event => alert(event.message))
+    }
+
     return (
         <div className="signup">
             <div className="signup__form">
@@ -19,8 +32,8 @@ function Signup() {
                 </div>
                 <h4> OR </h4>
                 <div className="signup__formMiddle">
-                    <input type="text" placeholder="Email or Username" />
-                    <input type="password" placeholder="Password" />
+                    <input type="email" placeholder="Email or Username" value={email} onChange={e => setEmail(e.target.value)} />
+                    <input type="password" placeholder="Password" value={password} onChange={e => setPassword(e.target.value)} />
                     <h5>
                         <Checkbox
                             color="primary"
@@ -29,7 +42,7 @@ function Signup() {
                             <Link> User Agreement </Link> and
                             <Link> Privacy Policy. </Link>
                     </h5>
-                    <button>Join Freelancer</button>
+                    <button onClick={register} type="submit" className="login__signInButton"> Join Freelancer</button>
                 </div>
                 <div className="signup__formBottom">
                     <hr />
