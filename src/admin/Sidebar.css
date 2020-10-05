@@ -31,7 +31,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  align-content: flex-start;
+  /* align-content: flex-start; */
 }
 
 .sidebar__cardone--title > span > h3 {
@@ -105,7 +105,7 @@
 
 .sidebar__cardone--balance > span {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   border-top: 1px solid gray;
   margin: 0 15px;
@@ -115,11 +115,12 @@
   font-size: 16px;
   font-weight: 600;
   margin-top: 10px;
-  margin-right: 40px;
+  margin-right: 10px;
 }
 
 .sidebar__cardone--balance > span > p > a {
   text-decoration: none;
+  color: #139ff0;
 }
 
 .sidebar__cardone--balance > span > p > a:hover {
@@ -142,10 +143,108 @@
   height: min-content;
   margin-left: 30px;
   line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.sidebar__cardtwo--title {
+  border-bottom: 1px solid lightgray !important;
 }
 
 .sidebar__cardtwo > span {
   display: flex;
   justify-content: space-between;
-  /* align-content: flex-start; */
+  padding: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-bottom: 1px solid lightgray;
+}
+
+.sidebar__cardtwo > span > h4 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.sidebar__cardtwo > span > p > a {
+  font-size: 15px;
+  font-weight: 500;
+  text-decoration: none;
+  color: #139ff0;
+}
+
+.sidebar__cardtwo > span > p > a:hover {
+  color: #083e7c;
+  text-decoration: underline;
+}
+
+.sidebar__cardthree {
+  background-color: white;
+  height: min-content;
+  margin-left: 30px;
+  line-height: 1.5;
+  border-bottom: 1px solid lightgray;
+}
+
+.sidebar__cardthree > h4 {
+  padding: 15px;
+  font-size: 20px;
+  font-weight: 700;
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 10px;
+}
+
+.sidebar__cardthree > .MuiFormControl-root {
+  padding: 15px;
+}
+
+.sidebar__cardthree > .MuiFormControl-root > .MuiFormLabel-root {
+  font-size: 15px;
+  font-weight: 700;
+  color: black;
+}
+
+.sidebar__cardthree
+  > .MuiButton-root
+  > .MuiFormGroup-root
+  > .MuiFormControlLabel-root {
+  color: #083e7c;
+}
+
+.sidebar__cardthree > .MuiFormControl-root > p {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.sidebar__cardthree > .MuiFormControl-root > p > a {
+  font-size: 15px;
+  font-weight: 500;
+  color: #139ff8;
+  text-decoration: none;
+}
+
+.sidebar__cardthree > .MuiFormControl-root > p > a:hover {
+  font-size: 15px;
+  font-weight: 500;
+  color: #083e7c;
+  text-decoration: underline;
+}
+
+.sidebar__cardthree > .MuiFormControl-root > p > .MuiButton-root {
+  text-decoration: none;
+  margin-left: 10px;
+  text-transform: none !important;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#fff),
+    to(#f0f0f0)
+  );
+  background: linear-gradient(180deg, #fff 0, #f0f0f0);
+  border: 1px solid #bec0c2;
+  color: gray;
+}
+
+.sidebar__cardthree > .MuiFormControl-root > p > .MuiButton-root:hover {
+  color: #4d525b;
 }

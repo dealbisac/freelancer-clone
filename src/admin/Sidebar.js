@@ -1,12 +1,24 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Sidebar.css';
 import { Link } from 'react-router-dom';
 import ContactMailIcon from '@material-ui/icons/ContactMail';
 import LinearProgress from '@material-ui/core/LinearProgress';
 import ArrowRightAltIcon from '@material-ui/icons/ArrowRightAlt';
+import Radio from '@material-ui/core/Radio';
+import RadioGroup from '@material-ui/core/RadioGroup';
+import FormControlLabel from '@material-ui/core/FormControlLabel';
+import FormControl from '@material-ui/core/FormControl';
+import FormLabel from '@material-ui/core/FormLabel';
+import { Button } from '@material-ui/core';
 
 
 function Sidebar() {
+    const [value, setValue] = useState('');
+
+    const handleChange = (event) => {
+        setValue(event.target.value);
+    };
+
     return (
         <div className="sidebar">
             {/* Member Detail */}
@@ -45,7 +57,7 @@ function Sidebar() {
 
             {/* Bid Summary */}
             <div className="sidebar__cardtwo">
-                <span>
+                <span className="sidebar__cardtwo--title">
                     <h4>Bid Summary</h4>
                     <p><Link>View Insights</Link></p>
                 </span>
@@ -65,6 +77,21 @@ function Sidebar() {
 
 
             {/* Polls */}
+            <div className="sidebar__cardthree">
+                <h4>Polls</h4>
+                <FormControl component="fieldset">
+                    <FormLabel component="legend">What is your gender?</FormLabel>
+                    <RadioGroup aria-label="gender" name="gender1" value={value} onChange={handleChange}>
+                        <FormControlLabel value="male" control={<Radio />} label="Male" />
+                        <FormControlLabel value="female" control={<Radio />} label="Female" />
+                        <FormControlLabel value="other" control={<Radio />} label="Other" />
+                    </RadioGroup>
+                    <p>
+                        <Link> Skip Question</Link>
+                        <Button type="submit" variant="outlined" color="primary" >Submit Answer</Button>
+                    </p>
+                </FormControl>
+            </div>
         </div>
     )
 }
