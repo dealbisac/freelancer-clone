@@ -31,7 +31,7 @@ function DashboardContent() {
                     <button>Invite Now <ArrowRightAltIcon /></button>
                 </span>
                 <span>
-                    <img src="https://www.f-cdn.com/assets/main/en/assets/banners/give-get/T104418-give-get-banner-present.png" />
+                    <img src="https://www.f-cdn.com/assets/main/en/assets/banners/give-get/T104418-give-get-banner-present.png" alt="" />
                 </span>
             </div>
 
@@ -72,7 +72,7 @@ function DashboardContent() {
                     <h3>News Feed</h3>
                 </div>
                 <div className="dashboardContent__news--main">
-                    <img src="https://www.f-cdn.com/assets/main/en/assets/default-notification-image.svg" />
+                    <img src="https://www.f-cdn.com/assets/main/en/assets/default-notification-image.svg" alt="" />
                     <span>
                         <p>
                             This is where you'll receive updates for project and account activity. Select an option below to get started.

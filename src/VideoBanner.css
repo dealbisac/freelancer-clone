@@ -1,9 +1,10 @@
 .videoBanner {
-  background: url("https://images.unsplash.com/photo-1560285509-3ebfa70a171d")
+  background: url("https://image.freepik.com/free-photo/asian-businessman-turn-off-computer-say-goodbye-his-colleague-who-still-working-when-he-get-off-work-after-finish-working-overtime-small-modern-home-office-night-coworker-partnership-concept_7861-2548.jpg")
     center center;
   height: 600px;
   position: relative;
-  opacity: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .videoBanner__info {
