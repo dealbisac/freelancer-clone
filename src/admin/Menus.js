@@ -54,10 +54,10 @@ function Menus() {
                 </div>
 
                 <div className="menus__top--right">
-                    <Avatar src="http://dipendrachand.com.np/images/profilepic.jpg" />
+                    <Avatar src={user.photoURL ? user.photoURL : "http://dipendrachand.com.np/images/profilepic.jpg"} />
                     <span>
                         {/* <h4>{user?.email}</h4> */}
-                        <h4>chand.dipendra19@gmail.com</h4>
+                        <h4>{user?.email ? user?.email : 'chand.dipendra19@gmail.com'}</h4>
                         <h5>Rs. 95825.00</h5>
                     </span>
                     <ExpandMoreIcon

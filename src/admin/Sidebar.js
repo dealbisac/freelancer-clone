@@ -10,9 +10,12 @@ import FormControlLabel from '@material-ui/core/FormControlLabel';
 import FormControl from '@material-ui/core/FormControl';
 import FormLabel from '@material-ui/core/FormLabel';
 import { Button } from '@material-ui/core';
+import { useStateValue } from '../StateProvider';
+import { auth } from '../firebase';
 
 
 function Sidebar() {
+    const [{ user }, dispatch] = useStateValue();
     const [value, setValue] = useState('');
 
     const handleChange = (event) => {
@@ -25,9 +28,9 @@ function Sidebar() {
             <div className="sidebar__cardone">
                 <div className="sidebar__cardone--title">
                     <p>Welcome back,</p>
-                    <h3>Dipendra Bahadur Chand</h3>
+                    <h3>{user.displayName ? user.displayName : "Dipendra Bahadur Chand"}</h3>
                     <span>
-                        <h3>@chand.dipendra19@gmail.com</h3>
+                        <h3>-{user?.email}</h3>
                         <h6>FREE MEMBER</h6>
                     </span>
                 </div>
