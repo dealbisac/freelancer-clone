@@ -16,6 +16,10 @@
   /* border: 1px solid gray; */
 }
 
+.menus__top--left:hover {
+  background: hsla(0, 0%, 100%, 0.5);
+}
+
 .menus__top--left > a > img {
   height: 50px;
 }

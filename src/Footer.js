@@ -12,7 +12,7 @@ function Footer() {
         <div className="footer">
             <div className="footer__top">
                 <div className="footer__top--left">
-                    <img src="https://logos-download.com/wp-content/uploads/2016/06/Freelancer_logo-700x170.png" alt="logo" />
+                    <img src="https://logo-logos.com/wp-content/uploads/2016/10/Freelancer_logo.png" alt="logo" />
                     <p><LanguageIcon></LanguageIcon> &nbsp; US (International)/Engpsh</p>
                     <p><HelpIcon></HelpIcon> &nbsp; Help & Support</p>
                 </div>
